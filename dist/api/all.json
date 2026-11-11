@@ -243,7 +243,7 @@
     },
     {
       "id": "know-myself",
-      "name": "Now_Myself (Know Myself Context Hub)",
+      "name": "know_about_me (Know Myself Context Hub)",
       "status": "Active",
       "role": "Creator & Maintainer",
       "period": "Nov 2026 - Present",
@@ -260,8 +260,8 @@
         "Automated compilation of llms.txt and single-prompt profile context.",
         "Continuous deployment via GitHub Pages."
       ],
-      "repo_url": "https://github.com/kanchan-nath/Now_Myself",
-      "live_url": "https://kanchan-nath.github.io/Now_Myself"
+      "repo_url": "https://github.com/kanchan-nath/know_about_me",
+      "live_url": "https://kanchan-nath.github.io/know_about_me"
     }
   ],
   "experience": [
@@ -389,5 +389,5 @@
       ]
     }
   ],
-  "weekly_updates": "# Weekly Progress & Current Focus\n\n> Author: Kanchan Nath\n> Last Updated: 2026-11-12\n\n## Week of: 2026-11-10 to 2026-11-17\n\n### \ud83c\udfaf Current Focus\n- Establishing unified \"Now_Myself\" multi-agent context hub and MCP server.\n- Scaling StudeQ study app features and optimizing background queuing.\n- Exploring production AI agent integrations with Model Context Protocol (MCP) and custom tooling.\n\n### \ud83d\udee0\ufe0f What I Built & Shipped Recently\n- Architected and scaffolded `Now_Myself` single-source-of-truth context engine for Claude, ChatGPT, Cursor, and Antigravity.\n- Deployed FastMCP server exposing structured profile, skills, projects, and weekly updates.\n- Configured automated GitHub Pages deployment for live REST/JSON endpoints.\n\n### \ud83d\udcda What I Am Learning & Exploring\n- Advanced LLM agent workflows, multi-agent orchestration, and context injection.\n- Zero-downtime microservices patterns and resilient queue processing.\n\n### \ud83d\udea7 Current Blockers / Open Questions\n- Finalizing custom GPT and Cursor MCP configurations with live GitHub endpoints."
+  "weekly_updates": "# Weekly Progress & Current Focus\n\n> Author: Kanchan Nath\n> Last Updated: 2026-11-12\n\n## Week of: 2026-11-10 to 2026-11-17\n\n### \ud83c\udfaf Current Focus\n- Establishing unified \"know_about_me\" multi-agent context hub and MCP server.\n- Scaling StudeQ study app features and optimizing background queuing.\n- Exploring production AI agent integrations with Model Context Protocol (MCP) and custom tooling.\n\n### \ud83d\udee0\ufe0f What I Built & Shipped Recently\n- Architected and scaffolded `know_about_me` single-source-of-truth context engine for Claude, ChatGPT, Cursor, and Antigravity.\n- Deployed FastMCP server exposing structured profile, skills, projects, and weekly updates.\n- Configured automated GitHub Pages deployment for live REST/JSON endpoints.\n\n### \ud83d\udcda What I Am Learning & Exploring\n- Advanced LLM agent workflows, multi-agent orchestration, and context injection.\n- Zero-downtime microservices patterns and resilient queue processing.\n\n### \ud83d\udea7 Current Blockers / Open Questions\n- Finalizing custom GPT and Cursor MCP configurations with live GitHub endpoints."
 }

@@ -101,7 +101,7 @@
   },
   {
     "id": "know-myself",
-    "name": "Now_Myself (Know Myself Context Hub)",
+    "name": "know_about_me (Know Myself Context Hub)",
     "status": "Active",
     "role": "Creator & Maintainer",
     "period": "Nov 2026 - Present",
@@ -112,7 +112,7 @@
       "Automated compilation of llms.txt and single-prompt profile context.",
       "Continuous deployment via GitHub Pages."
     ],
-    "repo_url": "https://github.com/kanchan-nath/Now_Myself",
-    "live_url": "https://kanchan-nath.github.io/Now_Myself"
+    "repo_url": "https://github.com/kanchan-nath/know_about_me",
+    "live_url": "https://kanchan-nath.github.io/know_about_me"
   }
 ]

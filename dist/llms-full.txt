@@ -109,7 +109,7 @@ Mobile-first Progressive Web App (PWA) that decodes complex food ingredient labe
   - Designed mobile-first with offline PWA support.
 - **Links**: [Code Repo](https://github.com/kanchan-nath/scanbeforeeat)
 
-### Now_Myself (Know Myself Context Hub) `[Active]`
+### know_about_me (Know Myself Context Hub) `[Active]`
 *Creator & Maintainer (Nov 2026 - Present)*
 Single source of truth multi-agent context hub and MCP server connecting personal developer background, skills, and weekly updates across Claude, ChatGPT, Cursor, and Antigravity.
 - **Tech Stack**: Python, FastMCP, GitHub Actions, JSON / Markdown, GitHub Pages
@@ -117,7 +117,7 @@ Single source of truth multi-agent context hub and MCP server connecting persona
   - Exposes FastMCP tools and REST API endpoints for seamless LLM integration.
   - Automated compilation of llms.txt and single-prompt profile context.
   - Continuous deployment via GitHub Pages.
-- **Links**: [Code Repo](https://github.com/kanchan-nath/Now_Myself) | [Live Link](https://kanchan-nath.github.io/Now_Myself)
+- **Links**: [Code Repo](https://github.com/kanchan-nath/know_about_me) | [Live Link](https://kanchan-nath.github.io/know_about_me)
 
 ## Published Technical Articles & Deep Dives
 - [Everything I'd Normally npm Install: Building a Reverse Proxy From Node's Standard Library](https://kanchannath.hashnode.dev/everything-i-d-normally-npm-install-building-a-reverse-proxy-from-node-s-standard-library) (Sep 2026)
@@ -144,12 +144,12 @@ Single source of truth multi-agent context hub and MCP server connecting persona
 ## Week of: 2026-11-10 to 2026-11-17
 
 ### 🎯 Current Focus
-- Establishing unified "Now_Myself" multi-agent context hub and MCP server.
+- Establishing unified "know_about_me" multi-agent context hub and MCP server.
 - Scaling StudeQ study app features and optimizing background queuing.
 - Exploring production AI agent integrations with Model Context Protocol (MCP) and custom tooling.
 
 ### 🛠️ What I Built & Shipped Recently
-- Architected and scaffolded `Now_Myself` single-source-of-truth context engine for Claude, ChatGPT, Cursor, and Antigravity.
+- Architected and scaffolded `know_about_me` single-source-of-truth context engine for Claude, ChatGPT, Cursor, and Antigravity.
 - Deployed FastMCP server exposing structured profile, skills, projects, and weekly updates.
 - Configured automated GitHub Pages deployment for live REST/JSON endpoints.
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Now_Myself MCP Server for Kanchan Nath
+know_about_me MCP Server for Kanchan Nath
 Provides tools and resources for Cursor, Claude Desktop, Antigravity, and other MCP clients.
 """
 

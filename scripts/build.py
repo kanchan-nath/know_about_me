@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Now_Myself Build Script
+know_about_me Build Script
 Reads raw data (JSON & Markdown) and generates:
 1. context/full_profile.md  -> Clean markdown ready for single-prompt injection or raw URL fetching.
 2. llms.txt & llms-full.txt -> Standard discovery format for AI crawlers and agents.
@@ -325,7 +325,7 @@ def generate_html(profile, skills, projects, experience, articles, weekly_text):
 
 
 def main():
-    print("Compiling Now_Myself context hub for Kanchan Nath...")
+    print("Compiling know_about_me context hub for Kanchan Nath...")
 
     # Load data
     profile = load_json("profile.json")

@@ -1,14 +1,14 @@
-# Now_Myself 🚀
+# know_about_me 🚀
 > Single Source of Truth Context Hub for Kanchan Nath
 
-`Now_Myself` stores Kanchan Nath's developer bio, skill levels, project history, publications, and weekly progress in one version-controlled repository. All AI agents (Claude, ChatGPT, Cursor, Antigravity) fetch up-to-date context from this single source of truth.
+`know_about_me` stores Kanchan Nath's developer bio, skill levels, project history, publications, and weekly progress in one version-controlled repository. All AI agents (Claude, ChatGPT, Cursor, Antigravity) fetch up-to-date context from this single source of truth.
 
 ---
 
 ## 📁 Repository Structure
 
 ```
-Now_Myself/
+know_about_me/
 ├── data/
 │   ├── profile.json       # Bio, education, contact, coding preferences
 │   ├── skills.json        # Languages, backend, frontend, queues, databases, AI
@@ -50,14 +50,14 @@ python3 scripts/build.py
 git add .
 git commit -m "feat: complete single source of truth for Kanchan Nath"
 git branch -M main
-git remote add origin https://github.com/kanchan-nath/Now_Myself.git
+git remote add origin https://github.com/kanchan-nath/know_about_me.git
 git push -u origin main
 ```
 
 ### 3. Enable GitHub Pages (Free Hosting)
 1. Go to repository **Settings** -> **Pages**.
 2. Under **Build and deployment** -> **Source**, select **GitHub Actions**.
-3. Now your profile is live at `https://kanchan-nath.github.io/Now_Myself/`!
+3. Now your profile is live at `https://kanchan-nath.github.io/know_about_me/`!
 
 ---
 
