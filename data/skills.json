@@ -1,0 +1,58 @@
+{
+  "languages": [
+    { "name": "JavaScript (ES6+)", "level": "Advanced", "years": 3 },
+    { "name": "TypeScript", "level": "Intermediate", "years": 2 },
+    { "name": "Python", "level": "Intermediate", "years": 2 },
+    { "name": "HTML5 & CSS3", "level": "Advanced", "years": 3 },
+    { "name": "SQL", "level": "Intermediate", "years": 2 }
+  ],
+  "backend": [
+    "Node.js",
+    "Express.js",
+    "REST API Development",
+    "Zod (Schema Validation)",
+    "JWT Authentication (Access & Refresh Tokens)",
+    "Cookie-based Sessions",
+    "Socket.io (Real-time WebSockets & Room Messaging)",
+    "Winston (Structured Logging)",
+    "Rate Limiting & Helmet Security Middleware"
+  ],
+  "frontend": [
+    "React.js",
+    "Next.js",
+    "Vite",
+    "Three.js (3D Creative Web)",
+    "CSS Modules & Responsive Design",
+    "Tailwind CSS",
+    "Progressive Web Apps (PWA)"
+  ],
+  "databases_and_orms": [
+    "PostgreSQL",
+    "Prisma ORM",
+    "MongoDB",
+    "Mongoose ODM",
+    "Database Schema Design & Indexing"
+  ],
+  "queues_caching_and_devops": [
+    "Redis (In-Memory Caching & Pub/Sub)",
+    "BullMQ (Background Queues & Jobs)",
+    "FFmpeg (Video Transcoding Pipelines)",
+    "Docker",
+    "CircleCI (CI/CD Pipelines with JUnit reports)",
+    "Git & GitHub Version Control",
+    "Linux / Bash"
+  ],
+  "ai_and_llms": [
+    "LLM Model Training & Evaluation (RLHF, Accuracy, Logic, Safety)",
+    "Prompt Engineering",
+    "Groq API & Fast Inference Integration",
+    "AI Agents & Model Context Protocol (MCP)",
+    "RAG Concepts (PDF-based Chat & Vector Search)"
+  ],
+  "system_architecture": [
+    "Microservices vs Monolithic Architecture",
+    "Reverse Proxy & API Gateway (TLS termination, load balancing)",
+    "Asynchronous Event-Driven Architectures",
+    "Payment Gateway Integration (Razorpay with Webhook Verification)"
+  ]
+}

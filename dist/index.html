@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kanchan Nath - Context Hub</title>
+  <style>
+    :root {
+      --bg: #090d16;
+      --card-bg: #131b2e;
+      --accent: #38bdf8;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --border: #1e293b;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 2.5rem 1rem;
+    }
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    header {
+      margin-bottom: 2.5rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1.5rem;
+    }
+    h1 { font-size: 2.4rem; color: #fff; }
+    .headline { color: var(--accent); font-size: 1.25rem; margin-top: 0.3rem; font-weight: 500; }
+    .badge {
+      display: inline-block;
+      background: rgba(56, 189, 248, 0.15);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      color: #7dd3fc;
+      padding: 0.25rem 0.75rem;
+      border-radius: 9999px;
+      font-size: 0.85rem;
+      margin-top: 0.75rem;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    h2 { color: var(--accent); font-size: 1.35rem; margin-bottom: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.4rem; }
+    .tag {
+      display: inline-block;
+      background: #1e293b;
+      color: #e2e8f0;
+      padding: 0.25rem 0.55rem;
+      border-radius: 6px;
+      font-size: 0.82rem;
+      margin: 0.2rem;
+      border: 1px solid #334155;
+    }
+    .api-box {
+      background: #050811;
+      border: 1px solid var(--border);
+      padding: 0.8rem 1rem;
+      border-radius: 8px;
+      font-family: monospace;
+      font-size: 0.88rem;
+      margin-top: 0.5rem;
+      color: #34d399;
+      word-break: break-all;
+    }
+    a { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Kanchan Nath</h1>
+      <div class="headline">Full-Stack Engineer & Backend Specialist | Founder @ StudeQ</div>
+      <div class="badge">Status: Building scalable backend systems, AI agents, and full-stack web applications.</div>
+      <p style="margin-top: 1rem; color: var(--text-muted); font-size: 1.05rem;">Full-stack engineer and backend specialist pursuing B.Tech in Biotechnology at NIT Durgapur (CGPA 9.04). Experienced in designing high-concurrency Node.js/Express architectures, Redis caching & BullMQ pipelines, microservices, and AI-assisted educational tools. Founder of StudeQ (100+ users). Skilled in AI model training, prompt evaluation, and technical writing.</p>
+      <div style="margin-top: 1rem;"><a href="kanchannath.webdev@gmail.com" target="_blank" style="color:#38bdf8; margin-right:1rem; text-decoration:none;">Email</a> <a href="+91 9339160478" target="_blank" style="color:#38bdf8; margin-right:1rem; text-decoration:none;">Phone</a> <a href="https://github.com/kanchan-nath" target="_blank" style="color:#38bdf8; margin-right:1rem; text-decoration:none;">Github</a> <a href="https://www.linkedin.com/in/kanchan-nath/" target="_blank" style="color:#38bdf8; margin-right:1rem; text-decoration:none;">Linkedin</a> <a href="https://kanchan-nath.github.io/" target="_blank" style="color:#38bdf8; margin-right:1rem; text-decoration:none;">Portfolio</a> <a href="https://kanchannath.hashnode.dev/" target="_blank" style="color:#38bdf8; margin-right:1rem; text-decoration:none;">Blog</a> <a href="https://x.com/KanchanNathDev" target="_blank" style="color:#38bdf8; margin-right:1rem; text-decoration:none;">Twitter</a> <a href="https://www.instagram.com/hey.kanchan05/" target="_blank" style="color:#38bdf8; margin-right:1rem; text-decoration:none;">Instagram</a> <a href="https://leetcode.com/u/kanchan-nath/" target="_blank" style="color:#38bdf8; margin-right:1rem; text-decoration:none;">Leetcode</a></div>
+    </header>
+
+    <div class="card">
+      <h2>🤖 Single Source of Truth AI Endpoints</h2>
+      <p style="color:var(--text-muted); margin-bottom:0.5rem">Point Cursor, Claude, ChatGPT, or Antigravity to these endpoints:</p>
+      <div class="api-box">Full Markdown Profile: <a href="context/full_profile.md">context/full_profile.md</a></div>
+      <div class="api-box">JSON Profile API: <a href="api/profile.json">api/profile.json</a></div>
+      <div class="api-box">JSON Skills API: <a href="api/skills.json">api/skills.json</a></div>
+      <div class="api-box">JSON Projects API: <a href="api/projects.json">api/projects.json</a></div>
+      <div class="api-box">JSON All Data API: <a href="api/all.json">api/all.json</a></div>
+    </div>
+
+    <div class="card">
+      <h2>🛠️ Technical Skills</h2>
+      <div style="margin-bottom:0.8rem">
+        <strong>Backend & APIs:</strong><br>
+        <span class="tag">Node.js</span><span class="tag">Express.js</span><span class="tag">REST API Development</span><span class="tag">Zod (Schema Validation)</span><span class="tag">JWT Authentication (Access & Refresh Tokens)</span><span class="tag">Cookie-based Sessions</span><span class="tag">Socket.io (Real-time WebSockets & Room Messaging)</span><span class="tag">Winston (Structured Logging)</span><span class="tag">Rate Limiting & Helmet Security Middleware</span>
+      </div>
+      <div style="margin-bottom:0.8rem">
+        <strong>Queues, Caching & DevOps:</strong><br>
+        <span class="tag">Redis (In-Memory Caching & Pub/Sub)</span><span class="tag">BullMQ (Background Queues & Jobs)</span><span class="tag">FFmpeg (Video Transcoding Pipelines)</span><span class="tag">Docker</span><span class="tag">CircleCI (CI/CD Pipelines with JUnit reports)</span><span class="tag">Git & GitHub Version Control</span><span class="tag">Linux / Bash</span>
+      </div>
+      <div>
+        <strong>Frontend & Creative:</strong><br>
+        <span class="tag">React.js</span><span class="tag">Next.js</span><span class="tag">Vite</span><span class="tag">Three.js (3D Creative Web)</span><span class="tag">CSS Modules & Responsive Design</span><span class="tag">Tailwind CSS</span><span class="tag">Progressive Web Apps (PWA)</span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>🚀 Key Projects</h2>
+      <div style="margin-bottom:1.2rem; border-left:3px solid var(--accent); padding-left:0.8rem"><strong>StudeQ</strong> <small style="color:var(--accent)">[Active / Live]</small><br><p style="color:var(--text-muted); font-size:0.92rem">AI-backed full-stack study platform for students featuring intelligent note taking, automated quizzes, flashcards, and PDF-based chat. Serves over 100 active users.</p><small style="color:#64748b">Stack: Next.js, React.js, Node.js, Express.js, PostgreSQL, Prisma, MongoDB, Mongoose, Redis, BullMQ, Razorpay</small></div><div style="margin-bottom:1.2rem; border-left:3px solid var(--accent); padding-left:0.8rem"><strong>Nexus - Zero-Dependency Reverse Proxy & API Gateway</strong> <small style="color:var(--accent)">[Completed]</small><br><p style="color:var(--text-muted); font-size:0.92rem">Production-grade reverse proxy and API gateway built strictly using Node.js standard library (`node:*` built-ins) without any third-party npm dependencies.</p><small style="color:#64748b">Stack: Node.js (`node:http`, `node:tls`, `node:crypto`), JavaScript</small></div><div style="margin-bottom:1.2rem; border-left:3px solid var(--accent); padding-left:0.8rem"><strong>YouTube-like Scalable Backend System</strong> <small style="color:var(--accent)">[Completed]</small><br><p style="color:var(--text-muted); font-size:0.92rem">Highly scalable video platform backend supporting video upload, transcoding, streaming schemas, and real-time user engagement.</p><small style="color:#64748b">Stack: Node.js, Express.js, MongoDB, Redis, BullMQ, FFmpeg, Cloudinary, JWT</small></div><div style="margin-bottom:1.2rem; border-left:3px solid var(--accent); padding-left:0.8rem"><strong>Content Automation Pipeline</strong> <small style="color:var(--accent)">[Completed]</small><br><p style="color:var(--text-muted); font-size:0.92rem">Autonomous publishing pipeline that extracts code changes from GitHub, performs analysis via Groq LLM API, and publishes technical articles to Hashnode and Dev.to.</p><small style="color:#64748b">Stack: Node.js, Groq API, Hashnode API, Dev.to API, Cron Jobs</small></div><div style="margin-bottom:1.2rem; border-left:3px solid var(--accent); padding-left:0.8rem"><strong>ScanBeforeEat</strong> <small style="color:var(--accent)">[Active]</small><br><p style="color:var(--text-muted); font-size:0.92rem">Mobile-first Progressive Web App (PWA) that decodes complex food ingredient labels into clear, evidence-based consumer health intelligence.</p><small style="color:#64748b">Stack: JavaScript, PWA, HTML5, Node.js</small></div><div style="margin-bottom:1.2rem; border-left:3px solid var(--accent); padding-left:0.8rem"><strong>Now_Myself (Know Myself Context Hub)</strong> <small style="color:var(--accent)">[Active]</small><br><p style="color:var(--text-muted); font-size:0.92rem">Single source of truth multi-agent context hub and MCP server connecting personal developer background, skills, and weekly updates across Claude, ChatGPT, Cursor, and Antigravity.</p><small style="color:#64748b">Stack: Python, FastMCP, GitHub Actions, JSON / Markdown, GitHub Pages</small></div>
+    </div>
+
+    <div class="card">
+      <h2>✍️ Technical Articles & Architecture Notes</h2>
+      <ul>
+        <li style="margin-bottom:0.4rem"><a href="https://kanchannath.hashnode.dev/everything-i-d-normally-npm-install-building-a-reverse-proxy-from-node-s-standard-library" target="_blank">Everything I'd Normally npm Install: Building a Reverse Proxy From Node's Standard Library</a> <small style="color:var(--text-muted)">(Sep 2026)</small></li><li style="margin-bottom:0.4rem"><a href="https://kanchannath.hashnode.dev/express-js-api-server-architecture-tutorial" target="_blank">Express.js API Server Architecture Tutorial</a> <small style="color:var(--text-muted)">(Jul 2026)</small></li><li style="margin-bottom:0.4rem"><a href="https://kanchannath.hashnode.dev/node-js-socket-io-authentication-tutorial" target="_blank">Node.js Socket.IO Authentication Tutorial</a> <small style="color:var(--text-muted)">(Jul 2026)</small></li><li style="margin-bottom:0.4rem"><a href="https://kanchannath.hashnode.dev/how-ai-tools-for-students-actually-work-in-2026" target="_blank">How AI Tools for Students Actually Work in 2026</a> <small style="color:var(--text-muted)">(Jul 2026)</small></li><li style="margin-bottom:0.4rem"><a href="https://kanchannath.hashnode.dev/how-to-set-up-circleci-for-a-node-js-app-with-test-reports" target="_blank">How to Set Up CircleCI for a Node.js App With Test Reports</a> <small style="color:var(--text-muted)">(Jul 2026)</small></li><li style="margin-bottom:0.4rem"><a href="https://kanchannath.hashnode.dev/message-queues-explained-kafka-rabbitmq-and-when-to-use-which" target="_blank">Message Queues Explained — Kafka, RabbitMQ, and When to Use Which</a> <small style="color:var(--text-muted)">(Apr 2026)</small></li><li style="margin-bottom:0.4rem"><a href="https://kanchannath.hashnode.dev/why-i-moved-from-monolithic-to-microservices-for-my-youtube-like-platform" target="_blank">Why I Moved From Monolithic to Microservices for My YouTube-Like Platform</a> <small style="color:var(--text-muted)">(Apr 2026)</small></li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

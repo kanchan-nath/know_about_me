@@ -1,0 +1,44 @@
+[
+  {
+    "company": "StudeQ",
+    "role": "Founder & Full Stack Developer",
+    "period": "Feb 2026 - Present",
+    "location": "Remote",
+    "description": "Built and scaled an AI-powered study platform for 100+ active student users with full architectural and operational ownership.",
+    "achievements": [
+      "Engineered frontend in React/Next.js and resilient REST backend in Node.js/Express.",
+      "Integrated dual database layer (PostgreSQL with Prisma, MongoDB with Mongoose) and background queuing with Redis/BullMQ.",
+      "Implemented Razorpay payment flows with secure webhook signatures, growing organic traffic through targeted technical SEO."
+    ],
+    "skills_used": [
+      "Next.js",
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "PostgreSQL",
+      "Prisma",
+      "MongoDB",
+      "Redis",
+      "BullMQ",
+      "Razorpay"
+    ]
+  },
+  {
+    "company": "Outlier AI",
+    "role": "AI Model Trainer",
+    "period": "July 2026 - July 2026",
+    "location": "Remote | Part-time",
+    "description": "Trained and evaluated generative LLM models across coding, logical reasoning, and factual precision domains.",
+    "achievements": [
+      "Evaluated model outputs by creating, ranking, and annotating prompt-response pairs according to strict accuracy and safety protocols.",
+      "Identified and flagged logical edge-case failures and hallucinations in code generation outputs.",
+      "Collaborated with distributed AI training cohorts under strict quality and turnaround deadlines."
+    ],
+    "skills_used": [
+      "Prompt Engineering",
+      "Code Review",
+      "LLM Evaluation",
+      "Reasoning & Logic Testing"
+    ]
+  }
+]

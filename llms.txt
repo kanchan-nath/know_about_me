@@ -1,0 +1,18 @@
+# Kanchan Nath
+> Full-Stack Engineer & Backend Specialist | Founder @ StudeQ
+
+## Summary
+Full-stack engineer and backend specialist pursuing B.Tech in Biotechnology at NIT Durgapur (CGPA 9.04). Experienced in designing high-concurrency Node.js/Express architectures, Redis caching & BullMQ pipelines, microservices, and AI-assisted educational tools. Founder of StudeQ (100+ users). Skilled in AI model training, prompt evaluation, and technical writing.
+
+## Primary Tech Stack
+JavaScript (ES6+), TypeScript, Python, HTML5 & CSS3, SQL
+Backend: Node.js, Express, PostgreSQL, Prisma, MongoDB, Redis, BullMQ
+Frontend: React, Next.js, Three.js
+
+## Direct Context Links
+- Full Profile: context/full_profile.md
+- Skills: data/skills.json
+- Projects: data/projects.json
+- Experience: data/experience.json
+- Articles: data/articles.json
+- Weekly Updates: updates/weekly.md

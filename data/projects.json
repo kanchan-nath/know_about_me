@@ -1,0 +1,118 @@
+[
+  {
+    "id": "studeq",
+    "name": "StudeQ",
+    "status": "Active / Live",
+    "role": "Founder & Full Stack Developer",
+    "period": "Feb 2026 - Present",
+    "summary": "AI-backed full-stack study platform for students featuring intelligent note taking, automated quizzes, flashcards, and PDF-based chat. Serves over 100 active users.",
+    "tech_stack": [
+      "Next.js",
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "PostgreSQL",
+      "Prisma",
+      "MongoDB",
+      "Mongoose",
+      "Redis",
+      "BullMQ",
+      "Razorpay"
+    ],
+    "highlights": [
+      "Developed full stack with end-to-end ownership: Next.js/React frontend, Node.js/Express backend, and cloud deployment on Render.",
+      "Designed secure REST APIs with JWT authentication, cookie management, and Zod input validation.",
+      "Built background job queue with Redis and BullMQ for document processing and AI workloads.",
+      "Integrated Razorpay payment gateway with verified webhooks and managed SEO and organic growth."
+    ],
+    "repo_url": "https://github.com/kanchan-nath/StudeQ",
+    "live_url": "https://studeq.onrender.com/"
+  },
+  {
+    "id": "nexus-reverse-proxy",
+    "name": "Nexus - Zero-Dependency Reverse Proxy & API Gateway",
+    "status": "Completed",
+    "role": "Core Backend Engineer",
+    "period": "Aug 2026 - Sep 2026",
+    "summary": "Production-grade reverse proxy and API gateway built strictly using Node.js standard library (`node:*` built-ins) without any third-party npm dependencies.",
+    "tech_stack": ["Node.js (`node:http`, `node:tls`, `node:crypto`)", "JavaScript"],
+    "highlights": [
+      "Implemented TLS termination, dynamic path routing, health checks, round-robin load balancing, and rate limiting with zero external dependencies.",
+      "Built a live metrics dashboard and authentication verification layer directly in native Node.js streams.",
+      "Documented architectural design and performance characteristics in featured Hashnode article."
+    ],
+    "repo_url": "https://github.com/kanchan-nath",
+    "live_url": "https://kanchannath.hashnode.dev/everything-i-d-normally-npm-install-building-a-reverse-proxy-from-node-s-standard-library"
+  },
+  {
+    "id": "youtube-backend",
+    "name": "YouTube-like Scalable Backend System",
+    "status": "Completed",
+    "role": "Backend Architect",
+    "period": "Jan 2026 - Feb 2026",
+    "summary": "Highly scalable video platform backend supporting video upload, transcoding, streaming schemas, and real-time user engagement.",
+    "tech_stack": [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Redis",
+      "BullMQ",
+      "FFmpeg",
+      "Cloudinary",
+      "JWT"
+    ],
+    "highlights": [
+      "Engineered asynchronous video processing pipeline with BullMQ + FFmpeg for automatic multi-resolution transcoding (240p to 1080p).",
+      "Implemented access and refresh token JWT authentication, video metadata caching with Redis, and live-streaming database collections.",
+      "Refactored architecture from monolith towards modular microservices to optimize independent service scaling."
+    ],
+    "repo_url": "https://github.com/kanchan-nath",
+    "live_url": "https://kanchannath.hashnode.dev/why-i-moved-from-monolithic-to-microservices-for-my-youtube-like-platform"
+  },
+  {
+    "id": "content-automation",
+    "name": "Content Automation Pipeline",
+    "status": "Completed",
+    "role": "Developer",
+    "period": "May 2026",
+    "summary": "Autonomous publishing pipeline that extracts code changes from GitHub, performs analysis via Groq LLM API, and publishes technical articles to Hashnode and Dev.to.",
+    "tech_stack": ["Node.js", "Groq API", "Hashnode API", "Dev.to API", "Cron Jobs"],
+    "highlights": [
+      "Automated code review extraction and blog draft generation on a scheduled cron cadence.",
+      "Enabled cross-platform publishing with automated tag and markdown formatting."
+    ],
+    "repo_url": "https://github.com/kanchan-nath",
+    "live_url": ""
+  },
+  {
+    "id": "scanbeforeeat",
+    "name": "ScanBeforeEat",
+    "status": "Active",
+    "role": "Full-Stack Developer",
+    "period": "2026",
+    "summary": "Mobile-first Progressive Web App (PWA) that decodes complex food ingredient labels into clear, evidence-based consumer health intelligence.",
+    "tech_stack": ["JavaScript", "PWA", "HTML5", "Node.js"],
+    "highlights": [
+      "Translates cryptic food additives and chemical codes into intuitive health insights.",
+      "Designed mobile-first with offline PWA support."
+    ],
+    "repo_url": "https://github.com/kanchan-nath/scanbeforeeat",
+    "live_url": ""
+  },
+  {
+    "id": "know-myself",
+    "name": "Now_Myself (Know Myself Context Hub)",
+    "status": "Active",
+    "role": "Creator & Maintainer",
+    "period": "Nov 2026 - Present",
+    "summary": "Single source of truth multi-agent context hub and MCP server connecting personal developer background, skills, and weekly updates across Claude, ChatGPT, Cursor, and Antigravity.",
+    "tech_stack": ["Python", "FastMCP", "GitHub Actions", "JSON / Markdown", "GitHub Pages"],
+    "highlights": [
+      "Exposes FastMCP tools and REST API endpoints for seamless LLM integration.",
+      "Automated compilation of llms.txt and single-prompt profile context.",
+      "Continuous deployment via GitHub Pages."
+    ],
+    "repo_url": "https://github.com/kanchan-nath/Now_Myself",
+    "live_url": "https://kanchan-nath.github.io/Now_Myself"
+  }
+]

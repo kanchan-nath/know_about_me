@@ -1,0 +1,31 @@
+{
+  "name": "Kanchan Nath",
+  "headline": "Full-Stack Engineer & Backend Specialist | Founder @ StudeQ",
+  "location": "Basirhat, West Bengal, India",
+  "summary": "Full-stack engineer and backend specialist pursuing B.Tech in Biotechnology at NIT Durgapur (CGPA 9.04). Experienced in designing high-concurrency Node.js/Express architectures, Redis caching & BullMQ pipelines, microservices, and AI-assisted educational tools. Founder of StudeQ (100+ users). Skilled in AI model training, prompt evaluation, and technical writing.",
+  "status": "Building scalable backend systems, AI agents, and full-stack web applications.",
+  "education": {
+    "degree": "Bachelor of Technology (B.Tech), Biotechnology",
+    "institution": "National Institute of Technology, Durgapur",
+    "period": "Aug 2025 - Present",
+    "cgpa": "9.04"
+  },
+  "contact": {
+    "email": "kanchannath.webdev@gmail.com",
+    "phone": "+91 9339160478",
+    "github": "https://github.com/kanchan-nath",
+    "linkedin": "https://www.linkedin.com/in/kanchan-nath/",
+    "portfolio": "https://kanchan-nath.github.io/",
+    "blog": "https://kanchannath.hashnode.dev/",
+    "twitter": "https://x.com/KanchanNathDev",
+    "instagram": "https://www.instagram.com/hey.kanchan05/",
+    "leetcode": "https://leetcode.com/u/kanchan-nath/"
+  },
+  "preferences": {
+    "preferred_languages": ["JavaScript", "TypeScript", "Python", "Node.js"],
+    "backend_stack": ["Express.js", "FastAPI", "PostgreSQL (Prisma)", "MongoDB (Mongoose)", "Redis", "BullMQ"],
+    "frontend_stack": ["Next.js", "React.js", "Vite", "Tailwind CSS", "Three.js"],
+    "coding_style": "Production-ready, highly modular, strict validation (Zod), clear separation of concerns (controller-service-repository), robust error handling and structured logging.",
+    "agent_instruction": "Whenever helping me write code, tailor solutions to high-performance Node.js / TypeScript / Python backend patterns. Include proper input validation, logging, and async queue/caching considerations when relevant."
+  }
+}

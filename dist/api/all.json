@@ -1,0 +1,393 @@
+{
+  "profile": {
+    "name": "Kanchan Nath",
+    "headline": "Full-Stack Engineer & Backend Specialist | Founder @ StudeQ",
+    "location": "Basirhat, West Bengal, India",
+    "summary": "Full-stack engineer and backend specialist pursuing B.Tech in Biotechnology at NIT Durgapur (CGPA 9.04). Experienced in designing high-concurrency Node.js/Express architectures, Redis caching & BullMQ pipelines, microservices, and AI-assisted educational tools. Founder of StudeQ (100+ users). Skilled in AI model training, prompt evaluation, and technical writing.",
+    "status": "Building scalable backend systems, AI agents, and full-stack web applications.",
+    "education": {
+      "degree": "Bachelor of Technology (B.Tech), Biotechnology",
+      "institution": "National Institute of Technology, Durgapur",
+      "period": "Aug 2025 - Present",
+      "cgpa": "9.04"
+    },
+    "contact": {
+      "email": "kanchannath.webdev@gmail.com",
+      "phone": "+91 9339160478",
+      "github": "https://github.com/kanchan-nath",
+      "linkedin": "https://www.linkedin.com/in/kanchan-nath/",
+      "portfolio": "https://kanchan-nath.github.io/",
+      "blog": "https://kanchannath.hashnode.dev/",
+      "twitter": "https://x.com/KanchanNathDev",
+      "instagram": "https://www.instagram.com/hey.kanchan05/",
+      "leetcode": "https://leetcode.com/u/kanchan-nath/"
+    },
+    "preferences": {
+      "preferred_languages": [
+        "JavaScript",
+        "TypeScript",
+        "Python",
+        "Node.js"
+      ],
+      "backend_stack": [
+        "Express.js",
+        "FastAPI",
+        "PostgreSQL (Prisma)",
+        "MongoDB (Mongoose)",
+        "Redis",
+        "BullMQ"
+      ],
+      "frontend_stack": [
+        "Next.js",
+        "React.js",
+        "Vite",
+        "Tailwind CSS",
+        "Three.js"
+      ],
+      "coding_style": "Production-ready, highly modular, strict validation (Zod), clear separation of concerns (controller-service-repository), robust error handling and structured logging.",
+      "agent_instruction": "Whenever helping me write code, tailor solutions to high-performance Node.js / TypeScript / Python backend patterns. Include proper input validation, logging, and async queue/caching considerations when relevant."
+    }
+  },
+  "skills": {
+    "languages": [
+      {
+        "name": "JavaScript (ES6+)",
+        "level": "Advanced",
+        "years": 3
+      },
+      {
+        "name": "TypeScript",
+        "level": "Intermediate",
+        "years": 2
+      },
+      {
+        "name": "Python",
+        "level": "Intermediate",
+        "years": 2
+      },
+      {
+        "name": "HTML5 & CSS3",
+        "level": "Advanced",
+        "years": 3
+      },
+      {
+        "name": "SQL",
+        "level": "Intermediate",
+        "years": 2
+      }
+    ],
+    "backend": [
+      "Node.js",
+      "Express.js",
+      "REST API Development",
+      "Zod (Schema Validation)",
+      "JWT Authentication (Access & Refresh Tokens)",
+      "Cookie-based Sessions",
+      "Socket.io (Real-time WebSockets & Room Messaging)",
+      "Winston (Structured Logging)",
+      "Rate Limiting & Helmet Security Middleware"
+    ],
+    "frontend": [
+      "React.js",
+      "Next.js",
+      "Vite",
+      "Three.js (3D Creative Web)",
+      "CSS Modules & Responsive Design",
+      "Tailwind CSS",
+      "Progressive Web Apps (PWA)"
+    ],
+    "databases_and_orms": [
+      "PostgreSQL",
+      "Prisma ORM",
+      "MongoDB",
+      "Mongoose ODM",
+      "Database Schema Design & Indexing"
+    ],
+    "queues_caching_and_devops": [
+      "Redis (In-Memory Caching & Pub/Sub)",
+      "BullMQ (Background Queues & Jobs)",
+      "FFmpeg (Video Transcoding Pipelines)",
+      "Docker",
+      "CircleCI (CI/CD Pipelines with JUnit reports)",
+      "Git & GitHub Version Control",
+      "Linux / Bash"
+    ],
+    "ai_and_llms": [
+      "LLM Model Training & Evaluation (RLHF, Accuracy, Logic, Safety)",
+      "Prompt Engineering",
+      "Groq API & Fast Inference Integration",
+      "AI Agents & Model Context Protocol (MCP)",
+      "RAG Concepts (PDF-based Chat & Vector Search)"
+    ],
+    "system_architecture": [
+      "Microservices vs Monolithic Architecture",
+      "Reverse Proxy & API Gateway (TLS termination, load balancing)",
+      "Asynchronous Event-Driven Architectures",
+      "Payment Gateway Integration (Razorpay with Webhook Verification)"
+    ]
+  },
+  "projects": [
+    {
+      "id": "studeq",
+      "name": "StudeQ",
+      "status": "Active / Live",
+      "role": "Founder & Full Stack Developer",
+      "period": "Feb 2026 - Present",
+      "summary": "AI-backed full-stack study platform for students featuring intelligent note taking, automated quizzes, flashcards, and PDF-based chat. Serves over 100 active users.",
+      "tech_stack": [
+        "Next.js",
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "PostgreSQL",
+        "Prisma",
+        "MongoDB",
+        "Mongoose",
+        "Redis",
+        "BullMQ",
+        "Razorpay"
+      ],
+      "highlights": [
+        "Developed full stack with end-to-end ownership: Next.js/React frontend, Node.js/Express backend, and cloud deployment on Render.",
+        "Designed secure REST APIs with JWT authentication, cookie management, and Zod input validation.",
+        "Built background job queue with Redis and BullMQ for document processing and AI workloads.",
+        "Integrated Razorpay payment gateway with verified webhooks and managed SEO and organic growth."
+      ],
+      "repo_url": "https://github.com/kanchan-nath/StudeQ",
+      "live_url": "https://studeq.onrender.com/"
+    },
+    {
+      "id": "nexus-reverse-proxy",
+      "name": "Nexus - Zero-Dependency Reverse Proxy & API Gateway",
+      "status": "Completed",
+      "role": "Core Backend Engineer",
+      "period": "Aug 2026 - Sep 2026",
+      "summary": "Production-grade reverse proxy and API gateway built strictly using Node.js standard library (`node:*` built-ins) without any third-party npm dependencies.",
+      "tech_stack": [
+        "Node.js (`node:http`, `node:tls`, `node:crypto`)",
+        "JavaScript"
+      ],
+      "highlights": [
+        "Implemented TLS termination, dynamic path routing, health checks, round-robin load balancing, and rate limiting with zero external dependencies.",
+        "Built a live metrics dashboard and authentication verification layer directly in native Node.js streams.",
+        "Documented architectural design and performance characteristics in featured Hashnode article."
+      ],
+      "repo_url": "https://github.com/kanchan-nath",
+      "live_url": "https://kanchannath.hashnode.dev/everything-i-d-normally-npm-install-building-a-reverse-proxy-from-node-s-standard-library"
+    },
+    {
+      "id": "youtube-backend",
+      "name": "YouTube-like Scalable Backend System",
+      "status": "Completed",
+      "role": "Backend Architect",
+      "period": "Jan 2026 - Feb 2026",
+      "summary": "Highly scalable video platform backend supporting video upload, transcoding, streaming schemas, and real-time user engagement.",
+      "tech_stack": [
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Redis",
+        "BullMQ",
+        "FFmpeg",
+        "Cloudinary",
+        "JWT"
+      ],
+      "highlights": [
+        "Engineered asynchronous video processing pipeline with BullMQ + FFmpeg for automatic multi-resolution transcoding (240p to 1080p).",
+        "Implemented access and refresh token JWT authentication, video metadata caching with Redis, and live-streaming database collections.",
+        "Refactored architecture from monolith towards modular microservices to optimize independent service scaling."
+      ],
+      "repo_url": "https://github.com/kanchan-nath",
+      "live_url": "https://kanchannath.hashnode.dev/why-i-moved-from-monolithic-to-microservices-for-my-youtube-like-platform"
+    },
+    {
+      "id": "content-automation",
+      "name": "Content Automation Pipeline",
+      "status": "Completed",
+      "role": "Developer",
+      "period": "May 2026",
+      "summary": "Autonomous publishing pipeline that extracts code changes from GitHub, performs analysis via Groq LLM API, and publishes technical articles to Hashnode and Dev.to.",
+      "tech_stack": [
+        "Node.js",
+        "Groq API",
+        "Hashnode API",
+        "Dev.to API",
+        "Cron Jobs"
+      ],
+      "highlights": [
+        "Automated code review extraction and blog draft generation on a scheduled cron cadence.",
+        "Enabled cross-platform publishing with automated tag and markdown formatting."
+      ],
+      "repo_url": "https://github.com/kanchan-nath",
+      "live_url": ""
+    },
+    {
+      "id": "scanbeforeeat",
+      "name": "ScanBeforeEat",
+      "status": "Active",
+      "role": "Full-Stack Developer",
+      "period": "2026",
+      "summary": "Mobile-first Progressive Web App (PWA) that decodes complex food ingredient labels into clear, evidence-based consumer health intelligence.",
+      "tech_stack": [
+        "JavaScript",
+        "PWA",
+        "HTML5",
+        "Node.js"
+      ],
+      "highlights": [
+        "Translates cryptic food additives and chemical codes into intuitive health insights.",
+        "Designed mobile-first with offline PWA support."
+      ],
+      "repo_url": "https://github.com/kanchan-nath/scanbeforeeat",
+      "live_url": ""
+    },
+    {
+      "id": "know-myself",
+      "name": "Now_Myself (Know Myself Context Hub)",
+      "status": "Active",
+      "role": "Creator & Maintainer",
+      "period": "Nov 2026 - Present",
+      "summary": "Single source of truth multi-agent context hub and MCP server connecting personal developer background, skills, and weekly updates across Claude, ChatGPT, Cursor, and Antigravity.",
+      "tech_stack": [
+        "Python",
+        "FastMCP",
+        "GitHub Actions",
+        "JSON / Markdown",
+        "GitHub Pages"
+      ],
+      "highlights": [
+        "Exposes FastMCP tools and REST API endpoints for seamless LLM integration.",
+        "Automated compilation of llms.txt and single-prompt profile context.",
+        "Continuous deployment via GitHub Pages."
+      ],
+      "repo_url": "https://github.com/kanchan-nath/Now_Myself",
+      "live_url": "https://kanchan-nath.github.io/Now_Myself"
+    }
+  ],
+  "experience": [
+    {
+      "company": "StudeQ",
+      "role": "Founder & Full Stack Developer",
+      "period": "Feb 2026 - Present",
+      "location": "Remote",
+      "description": "Built and scaled an AI-powered study platform for 100+ active student users with full architectural and operational ownership.",
+      "achievements": [
+        "Engineered frontend in React/Next.js and resilient REST backend in Node.js/Express.",
+        "Integrated dual database layer (PostgreSQL with Prisma, MongoDB with Mongoose) and background queuing with Redis/BullMQ.",
+        "Implemented Razorpay payment flows with secure webhook signatures, growing organic traffic through targeted technical SEO."
+      ],
+      "skills_used": [
+        "Next.js",
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "PostgreSQL",
+        "Prisma",
+        "MongoDB",
+        "Redis",
+        "BullMQ",
+        "Razorpay"
+      ]
+    },
+    {
+      "company": "Outlier AI",
+      "role": "AI Model Trainer",
+      "period": "July 2026 - July 2026",
+      "location": "Remote | Part-time",
+      "description": "Trained and evaluated generative LLM models across coding, logical reasoning, and factual precision domains.",
+      "achievements": [
+        "Evaluated model outputs by creating, ranking, and annotating prompt-response pairs according to strict accuracy and safety protocols.",
+        "Identified and flagged logical edge-case failures and hallucinations in code generation outputs.",
+        "Collaborated with distributed AI training cohorts under strict quality and turnaround deadlines."
+      ],
+      "skills_used": [
+        "Prompt Engineering",
+        "Code Review",
+        "LLM Evaluation",
+        "Reasoning & Logic Testing"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "title": "Everything I'd Normally npm Install: Building a Reverse Proxy From Node's Standard Library",
+      "url": "https://kanchannath.hashnode.dev/everything-i-d-normally-npm-install-building-a-reverse-proxy-from-node-s-standard-library",
+      "date": "Sep 2026",
+      "topics": [
+        "Node.js built-ins",
+        "TLS Termination",
+        "Reverse Proxy",
+        "Rate Limiting",
+        "Zero Dependencies"
+      ]
+    },
+    {
+      "title": "Express.js API Server Architecture Tutorial",
+      "url": "https://kanchannath.hashnode.dev/express-js-api-server-architecture-tutorial",
+      "date": "Jul 2026",
+      "topics": [
+        "Express.js",
+        "API Architecture",
+        "Security Middleware",
+        "Rate Limiting"
+      ]
+    },
+    {
+      "title": "Node.js Socket.IO Authentication Tutorial",
+      "url": "https://kanchannath.hashnode.dev/node-js-socket-io-authentication-tutorial",
+      "date": "Jul 2026",
+      "topics": [
+        "WebSockets",
+        "Socket.IO",
+        "JWT Authentication",
+        "Room Messaging"
+      ]
+    },
+    {
+      "title": "How AI Tools for Students Actually Work in 2026",
+      "url": "https://kanchannath.hashnode.dev/how-ai-tools-for-students-actually-work-in-2026",
+      "date": "Jul 2026",
+      "topics": [
+        "AI in Education",
+        "EdTech",
+        "StudeQ",
+        "LLM System Architecture"
+      ]
+    },
+    {
+      "title": "How to Set Up CircleCI for a Node.js App With Test Reports",
+      "url": "https://kanchannath.hashnode.dev/how-to-set-up-circleci-for-a-node-js-app-with-test-reports",
+      "date": "Jul 2026",
+      "topics": [
+        "CircleCI",
+        "CI/CD",
+        "JUnit",
+        "Automated Testing"
+      ]
+    },
+    {
+      "title": "Message Queues Explained \u2014 Kafka, RabbitMQ, and When to Use Which",
+      "url": "https://kanchannath.hashnode.dev/message-queues-explained-kafka-rabbitmq-and-when-to-use-which",
+      "date": "Apr 2026",
+      "topics": [
+        "Message Queues",
+        "Kafka",
+        "RabbitMQ",
+        "BullMQ",
+        "Event-Driven"
+      ]
+    },
+    {
+      "title": "Why I Moved From Monolithic to Microservices for My YouTube-Like Platform",
+      "url": "https://kanchannath.hashnode.dev/why-i-moved-from-monolithic-to-microservices-for-my-youtube-like-platform",
+      "date": "Apr 2026",
+      "topics": [
+        "Microservices",
+        "Architecture",
+        "Scalability",
+        "Node.js"
+      ]
+    }
+  ],
+  "weekly_updates": "# Weekly Progress & Current Focus\n\n> Author: Kanchan Nath\n> Last Updated: 2026-11-12\n\n## Week of: 2026-11-10 to 2026-11-17\n\n### \ud83c\udfaf Current Focus\n- Establishing unified \"Now_Myself\" multi-agent context hub and MCP server.\n- Scaling StudeQ study app features and optimizing background queuing.\n- Exploring production AI agent integrations with Model Context Protocol (MCP) and custom tooling.\n\n### \ud83d\udee0\ufe0f What I Built & Shipped Recently\n- Architected and scaffolded `Now_Myself` single-source-of-truth context engine for Claude, ChatGPT, Cursor, and Antigravity.\n- Deployed FastMCP server exposing structured profile, skills, projects, and weekly updates.\n- Configured automated GitHub Pages deployment for live REST/JSON endpoints.\n\n### \ud83d\udcda What I Am Learning & Exploring\n- Advanced LLM agent workflows, multi-agent orchestration, and context injection.\n- Zero-downtime microservices patterns and resilient queue processing.\n\n### \ud83d\udea7 Current Blockers / Open Questions\n- Finalizing custom GPT and Cursor MCP configurations with live GitHub endpoints."
+}
