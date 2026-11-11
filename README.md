@@ -1,7 +1,17 @@
 # know_about_me 🚀
 > Single Source of Truth Context Hub for Kanchan Nath
 
-`know_about_me` stores Kanchan Nath's developer bio, skill levels, project history, publications, and weekly progress in one version-controlled repository. All AI agents (Claude, ChatGPT, Cursor, Antigravity) fetch up-to-date context from this single source of truth.
+## 📋 Quick Copy Link For AI Agents
+
+Copy and paste this single link into **ChatGPT**, **Claude**, **Cursor**, or **Gemini** whenever you want them to know your full background, stack, and active projects:
+
+```text
+https://raw.githubusercontent.com/kanchan-nath/know_about_me/main/context/full_profile.md
+```
+
+- 🔗 **Raw Full Profile**: [Open Raw Markdown](https://raw.githubusercontent.com/kanchan-nath/know_about_me/main/context/full_profile.md)
+- 📅 **Weekly Updates**: `https://raw.githubusercontent.com/kanchan-nath/know_about_me/main/updates/weekly.md`
+- 🌐 **Live Hub (GitHub Pages)**: [https://kanchan-nath.github.io/know_about_me/](https://kanchan-nath.github.io/know_about_me/)
 
 ---
 
