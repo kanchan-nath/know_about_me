@@ -83,8 +83,16 @@ git push -u origin main
 
 ---
 
-## 🔄 Weekly Update Workflow
-1. Open `updates/weekly.md`.
-2. Add what you built, learned, and are currently focused on.
-3. Run `python3 scripts/build.py` and push to GitHub.
-4. All agents immediately see your latest updates!
+## 🔄 Weekly Update & "Feed Me" Workflow
+
+Whenever you learn a new tool, ship a project, or finish a week, simply tell Antigravity in chat:
+> **"feed me: <paste your rough notes, links, or weekly update here>"**
+
+Or use the slash command:
+> **`/feed-me <rough notes>`**
+
+The automated `feed-me` skill will:
+1. Parse and categorize your raw notes into `data/*.json` or `updates/weekly.md`.
+2. Run `scripts/build.py` to regenerate `context/full_profile.md` and static API files.
+3. Automatically commit and push to GitHub (`origin main`).
+4. All your connected AI agents (Claude, ChatGPT, Cursor) immediately have the new context!
