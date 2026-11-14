@@ -13,6 +13,7 @@ Frontend: React, Next.js, Three.js
 - Full Profile: context/full_profile.md
 - Skills: data/skills.json
 - Projects: data/projects.json
+- Repositories Catalog (43 Projects): data/repositories.json
 - Experience: data/experience.json
 - Articles: data/articles.json
 - Weekly Updates: updates/weekly.md

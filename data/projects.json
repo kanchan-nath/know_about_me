@@ -35,7 +35,10 @@
     "role": "Core Backend Engineer",
     "period": "Aug 2026 - Sep 2026",
     "summary": "Production-grade reverse proxy and API gateway built strictly using Node.js standard library (`node:*` built-ins) without any third-party npm dependencies.",
-    "tech_stack": ["Node.js (`node:http`, `node:tls`, `node:crypto`)", "JavaScript"],
+    "tech_stack": [
+      "Node.js (`node:http`, `node:tls`, `node:crypto`)",
+      "JavaScript"
+    ],
     "highlights": [
       "Implemented TLS termination, dynamic path routing, health checks, round-robin load balancing, and rate limiting with zero external dependencies.",
       "Built a live metrics dashboard and authentication verification layer directly in native Node.js streams.",
@@ -76,7 +79,13 @@
     "role": "Developer",
     "period": "May 2026",
     "summary": "Autonomous publishing pipeline that extracts code changes from GitHub, performs analysis via Groq LLM API, and publishes technical articles to Hashnode and Dev.to.",
-    "tech_stack": ["Node.js", "Groq API", "Hashnode API", "Dev.to API", "Cron Jobs"],
+    "tech_stack": [
+      "Node.js",
+      "Groq API",
+      "Hashnode API",
+      "Dev.to API",
+      "Cron Jobs"
+    ],
     "highlights": [
       "Automated code review extraction and blog draft generation on a scheduled cron cadence.",
       "Enabled cross-platform publishing with automated tag and markdown formatting."
@@ -91,7 +100,12 @@
     "role": "Full-Stack Developer",
     "period": "2026",
     "summary": "Mobile-first Progressive Web App (PWA) that decodes complex food ingredient labels into clear, evidence-based consumer health intelligence.",
-    "tech_stack": ["JavaScript", "PWA", "HTML5", "Node.js"],
+    "tech_stack": [
+      "JavaScript",
+      "PWA",
+      "HTML5",
+      "Node.js"
+    ],
     "highlights": [
       "Translates cryptic food additives and chemical codes into intuitive health insights.",
       "Designed mobile-first with offline PWA support."
@@ -106,7 +120,13 @@
     "role": "Creator & Maintainer",
     "period": "Nov 2026 - Present",
     "summary": "Single source of truth multi-agent context hub and MCP server connecting personal developer background, skills, and weekly updates across Claude, ChatGPT, Cursor, and Antigravity.",
-    "tech_stack": ["Python", "FastMCP", "GitHub Actions", "JSON / Markdown", "GitHub Pages"],
+    "tech_stack": [
+      "Python",
+      "FastMCP",
+      "GitHub Actions",
+      "JSON / Markdown",
+      "GitHub Pages"
+    ],
     "highlights": [
       "Exposes FastMCP tools and REST API endpoints for seamless LLM integration.",
       "Automated compilation of llms.txt and single-prompt profile context.",
@@ -114,5 +134,110 @@
     ],
     "repo_url": "https://github.com/kanchan-nath/know_about_me",
     "live_url": "https://kanchan-nath.github.io/know_about_me"
+  },
+  {
+    "id": "claude-code-skills",
+    "name": "Claude Code Skills Library",
+    "status": "Active / Open Source",
+    "role": "Author & Maintainer",
+    "period": "Jun 2026 - Present",
+    "summary": "Comprehensive production AI agent skills library (425+ skills) designed for Claude Code, Antigravity, and autonomous agent frameworks with automated CI validation and synchronization.",
+    "tech_stack": [
+      "Python",
+      "Bash",
+      "GitHub Actions",
+      "Markdown",
+      "CI/CD"
+    ],
+    "highlights": [
+      "Architected automated skill router (find-skill.py) and skill synchronization script (sync_skills.py).",
+      "Maintains 425+ battle-tested domain skills covering system architecture, security auditing, TDD, and full-stack development.",
+      "Continuous automated validation pipeline running on GitHub Actions."
+    ],
+    "repo_url": "https://github.com/kanchan-nath/claude-code-skills",
+    "live_url": ""
+  },
+  {
+    "id": "bloodbankos",
+    "name": "BloodBankOS - Hospital & Donor Management Platform",
+    "status": "Completed",
+    "role": "Full Stack Developer",
+    "period": "Oct 2026",
+    "summary": "Full-stack healthcare operations platform managing real-time blood inventory, emergency donor matching, and hospital allocation workflows.",
+    "tech_stack": [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "EJS",
+      "Tailwind CSS"
+    ],
+    "highlights": [
+      "Built real-time blood stock tracking and multi-tier blood group compatibility matching engine.",
+      "Implemented secure hospital administrative dashboards and donor registry management."
+    ],
+    "repo_url": "https://github.com/kanchan-nath/BloodBankOS",
+    "live_url": ""
+  },
+  {
+    "id": "know-your-wb",
+    "name": "KnowYourWB - Bengal Heritage Atlas",
+    "status": "Active",
+    "role": "Creator & Developer",
+    "period": "Oct 2026 - Present",
+    "summary": "Interactive cultural and historical heritage exploration portal celebrating monuments, history, and geographical diversity of West Bengal.",
+    "tech_stack": [
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "Leaflet / Maps API"
+    ],
+    "highlights": [
+      "Interactive geospatial atlas detailing districts, historical landmarks, festivals, and cultural heritage of Bengal.",
+      "Optimized for fast mobile rendering and rich multimedia discovery."
+    ],
+    "repo_url": "https://github.com/kanchan-nath/KnowYourWB",
+    "live_url": ""
+  },
+  {
+    "id": "job-portal",
+    "name": "Job-Portal & JobFlux Platform",
+    "status": "Completed",
+    "role": "Full Stack Engineer",
+    "period": "Feb 2026 - Mar 2026",
+    "summary": "Production-ready full-stack job board connecting tech talent with employers, featuring candidate application pipelines, role filtering, and recruiter dashboards.",
+    "tech_stack": [
+      "Node.js",
+      "Express.js",
+      "React.js",
+      "MongoDB",
+      "Tailwind CSS",
+      "JWT"
+    ],
+    "highlights": [
+      "Engineered REST APIs for job postings, application submissions, and resume handling.",
+      "Integrated recruiter workflows with candidate tracking status and role filtering."
+    ],
+    "repo_url": "https://github.com/kanchan-nath/Job-Portal",
+    "live_url": ""
+  },
+  {
+    "id": "nutritrack-pro",
+    "name": "NutriTrack Pro (IEEE HackHustle)",
+    "status": "Completed / Hackathon",
+    "role": "Team Lead & Backend Developer",
+    "period": "Mar 2026",
+    "summary": "Smart nutrition and dietary tracking web application developed during IEEE HackHustle for personalized health analytics.",
+    "tech_stack": [
+      "JavaScript",
+      "Node.js",
+      "Express.js",
+      "Nutrition APIs"
+    ],
+    "highlights": [
+      "Built macronutrient breakdown calculators and automated dietary suggestion pipelines.",
+      "Delivered complete working prototype under high-pressure hackathon deadlines."
+    ],
+    "repo_url": "https://github.com/kanchan-nath/NutriTrack-Pro---IEEE-HackHustle",
+    "live_url": ""
   }
 ]

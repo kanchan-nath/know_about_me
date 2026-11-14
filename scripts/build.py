@@ -35,7 +35,7 @@ def load_markdown(file_path):
         return f.read().strip()
 
 
-def build_full_profile_markdown(profile, skills, projects, experience, articles, weekly_text):
+def build_full_profile_markdown(profile, skills, projects, experience, articles, weekly_text, repositories=None):
     md = []
     name = profile.get("name", "Developer")
     headline = profile.get("headline", "")
@@ -139,6 +139,21 @@ def build_full_profile_markdown(profile, skills, projects, experience, articles,
             md.append(f"- **Links**: {' | '.join(links)}")
         md.append("")
 
+    # Repositories Catalog
+    if repositories:
+        md.append(f"## GitHub Repositories Catalog ({len(repositories)} Projects)")
+        by_cat = {}
+        for r in repositories:
+            cat = r.get("category", "General")
+            by_cat.setdefault(cat, []).append(r)
+        for cat, items in by_cat.items():
+            md.append(f"### {cat}")
+            for r in items:
+                desc = f" - {r['description']}" if r.get("description") else ""
+                lang = f" `[{r.get('language', 'Code')}]`" if r.get("language") else ""
+                md.append(f"- [{r['name']}]({r['html_url']}){lang}{desc}")
+            md.append("")
+
     # Technical Writing
     if articles:
         md.append("## Published Technical Articles & Deep Dives")
@@ -177,6 +192,7 @@ Frontend: React, Next.js, Three.js
 - Full Profile: context/full_profile.md
 - Skills: data/skills.json
 - Projects: data/projects.json
+- Repositories Catalog (43 Projects): data/repositories.json
 - Experience: data/experience.json
 - Articles: data/articles.json
 - Weekly Updates: updates/weekly.md
@@ -288,6 +304,7 @@ def generate_html(profile, skills, projects, experience, articles, weekly_text):
       <div class="api-box">JSON Profile API: <a href="api/profile.json">api/profile.json</a></div>
       <div class="api-box">JSON Skills API: <a href="api/skills.json">api/skills.json</a></div>
       <div class="api-box">JSON Projects API: <a href="api/projects.json">api/projects.json</a></div>
+      <div class="api-box">JSON Repositories Catalog (43 Projects): <a href="api/repositories.json">api/repositories.json</a></div>
       <div class="api-box">JSON All Data API: <a href="api/all.json">api/all.json</a></div>
     </div>
 
@@ -331,6 +348,7 @@ def main():
     profile = load_json("profile.json")
     skills = load_json("skills.json")
     projects = load_json("projects.json")
+    repositories = load_json("repositories.json")
     experience = load_json("experience.json")
     articles = load_json("articles.json")
     weekly_text = load_markdown(UPDATES_DIR / "weekly.md")
@@ -341,7 +359,7 @@ def main():
     DIST_API_DIR.mkdir(parents=True, exist_ok=True)
 
     # 1. Generate context/full_profile.md
-    full_profile_md = build_full_profile_markdown(profile, skills, projects, experience, articles, weekly_text)
+    full_profile_md = build_full_profile_markdown(profile, skills, projects, experience, articles, weekly_text, repositories)
     with open(CONTEXT_DIR / "full_profile.md", "w", encoding="utf-8") as f:
         f.write(full_profile_md)
     print("✓ Created context/full_profile.md")
@@ -361,6 +379,8 @@ def main():
         json.dump(skills, f, indent=2)
     with open(DIST_API_DIR / "projects.json", "w", encoding="utf-8") as f:
         json.dump(projects, f, indent=2)
+    with open(DIST_API_DIR / "repositories.json", "w", encoding="utf-8") as f:
+        json.dump(repositories, f, indent=2)
     with open(DIST_API_DIR / "experience.json", "w", encoding="utf-8") as f:
         json.dump(experience, f, indent=2)
     with open(DIST_API_DIR / "articles.json", "w", encoding="utf-8") as f:
@@ -370,6 +390,7 @@ def main():
         "profile": profile,
         "skills": skills,
         "projects": projects,
+        "repositories": repositories,
         "experience": experience,
         "articles": articles,
         "weekly_updates": weekly_text,
