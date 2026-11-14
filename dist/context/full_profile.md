@@ -20,6 +20,7 @@ Full-stack engineer and backend specialist pursuing B.Tech in Biotechnology at N
 - **Twitter**: https://x.com/KanchanNathDev
 - **Instagram**: https://www.instagram.com/hey.kanchan05/
 - **Leetcode**: https://leetcode.com/u/kanchan-nath/
+- **Youtube**: https://www.youtube.com/channel/UCAwncfqYOJwAY8yAnF5_hMQ
 
 ## Developer Preferences & Agent Guidance
 - **Preferred Languages**: JavaScript, TypeScript, Python, Node.js
